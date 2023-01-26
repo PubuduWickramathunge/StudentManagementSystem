@@ -28,7 +28,6 @@ public class Student {
         this.dob = dob;
 
 
-        this.age = age;
     }
 
     public Student(String name, String email, LocalDate dob) {
