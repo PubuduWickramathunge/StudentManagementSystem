@@ -6,7 +6,7 @@ plugins {
 
 group = 'com.pwick'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = "1.9"
+sourceCompatibility = "1.8"
 
 repositories {
 	mavenCentral()
@@ -24,4 +24,4 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
-targetCompatibility = JavaVersion.VERSION_1_9
+targetCompatibility = JavaVersion.VERSION_1_8
